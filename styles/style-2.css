@@ -55,13 +55,19 @@ header {
 }
 
 .blurb {
-    width: 50%;
+    width: 75%;
 }
 
 @media (max-width: 800px) {
     .blurb {
         width: 100%;
     }
+}
+
+.button-space {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
 }
 
 /* cards */

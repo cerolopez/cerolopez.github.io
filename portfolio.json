@@ -1,0 +1,196 @@
+[
+    {
+        "headerTitle": "Frontend & UI", 
+        "id": "frontend-ui",
+        "cardContent": [
+            {
+                "id": "cardsBtn",
+                "title": "Macro Math (in progress)",
+                "subtitle1": "Mobile app",
+                "subtitle2": "2024 - present",
+                "description": "Macro Math is a React app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am the sole contributor of this project and created the Figma prototype myself. My next step is to start a GitHub repo and start coding before finishing the prototype.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Figma",
+                        "buttonURL": "https://www.figma.com/proto/VxtRCdlNNYdEIu7SlhJVoL/Macro-Math?node-id=0-1&t=f8WjBhimKnLrf1SK-1"
+                    }
+                ]
+            }, 
+            {
+                "id": "cardsBtn",
+                "title": "Personal website",
+                "subtitle1": "Web app",
+                "subtitle2": "Winter 2022 - present",
+                "description": "I created this website from scratch using JavaScript, HTML, and CSS. I created a Figma prototype of how I wanted to update it from when I was in college, when I used Bootstrap components.",
+                "buttons": [
+                    {
+                        "buttonTitle": "GitHub",
+                        "buttonURL": "https://github.com/cerolopez/cerolopez.github.io"
+                    }
+                ]
+            }, 
+            {
+                "id": "cardsBtn",
+                "title": "This Is Where",
+                "subtitle1": "Web app",
+                "subtitle2": "Winter 2022",
+                "description": "For my Web Dev class, a classmate and I chose to create This Is Where, an app where people can share a sentiment that is connected to a place in time in the SF Bay Area. It was built with a React frontend and Node backend",
+                "buttons": [
+                    {
+                        "buttonTitle": "GitHub",
+                        "buttonURL": "https://github.com/cerolopez/this-is-where"
+                    }, 
+                    {
+                        "buttonTitle": "Figma",
+                        "buttonURL": "https://www.figma.com/design/OHjx2GGy9EndvLDzlG7cHR/This-Is-Where?node-id=0-1&t=0uVVkCQr32u3dgMn-1"
+                    }
+                ]
+            }, 
+            {
+                "id": "cardsBtn",
+                "title": "DTR",
+                "subtitle1": "Web app",
+                "subtitle2": "Winter 2022",
+                "description": "For my Web Dev class, a classmate and I chose to create Dater, an app for after the first date. Users can log dates with other users and answer questions to discover compatibility. It was built with a Node backend and vanilla JS frontend.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "GitHub",
+                        "buttonURL": "https://github.com/cerolopez/dater"
+                    }, 
+                    {
+                        "buttonTitle": "Figma", 
+                        "buttonURL": "https://www.figma.com/design/N8zzw8ZS8WbesDuE0PUzl4/DATER?node-id=52-4&t=C4i913kKSuMEM99s-1"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "headerTitle": "Writing & Editing", 
+        "id": "writing-editing",
+        "cardContent": [
+            {
+                "id": "cardsBtn",
+                "title": "Article: Turing Award presented to Yann LeCun, Geoffrey Hinton, and Yoshua Bengio",
+                "subtitle1": "Writing",
+                "subtitle2": "March 2019",
+                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann Lecun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. I wrote an article about him for the Meta AI Research blog, which a colleague edited and posted.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article",
+                        "buttonURL": "https://ai.meta.com/blog/-turing-award-presented-to-yann-lecun-geoffrey-hinton-and-yoshua-bengio/"
+                    }
+                ]
+            }, 
+            {
+                "id": "cardsBtn",
+                "title": "College 101 Essay Examples",
+                "subtitle1": "Writing & Editing",
+                "subtitle2": "2014 - 2017",
+                "description": "While I worked at e-learning startup Shmoop University, Inc., I wrote example college essays for the College 101 section of our website. I took common college essay prompts and responded to them as if I were a high schooler. I also edited these myself. My three essays ended up garnering over 10,000 views each over a two-week period when web traffic was expected to be low (during the holidays). It was such an accomplishment that my manager announced it to the rest of the content team and asked me to write more. Below are two examples from the first batch.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Essay 1",
+                        "buttonURL": "https://www.shmoop.com/college/minority-college-essay-challenging-beliefs.html"
+                    }, 
+                    {
+                        "buttonTitle": "Read Essay 2",
+                        "buttonURL": "https://www.shmoop.com/college/minority-college-essay-accomplishment.html"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "headerTitle": "Content Strategy", 
+        "id": "content-strategy",
+        "cardContent": [
+            {
+                "id": "cardsBtn",
+                "title": "Website: Meta Research Website",
+                "subtitle1": "Strategy & Management",
+                "subtitle2": "May 2018 - November 2022",
+                "description": "For a little over four years, I was the main point person for the Meta Research website. I held a Managing Editor role for the blog, I partnered with an external team of web developers on large-scale web optimization projects and bug tracking, and I led content strategy for the entire site. For a significant time, I was the lone gatekeeper for the entire site, but I eventually hired, trained, and supervised a content coordinator to take over my role of posting ongoing content such as publications, RFPs, and bios. I also partnered with a designer to maintain consistent branding throughout the site.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "See Website",
+                        "buttonURL": "https://research.facebook.com/"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
+                "title": "Series: Facebook Fellowship Spotlight",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "2021 - 2022",
+                "description": "Here are two example blog posts of a Fellowship spotlight series that I developed. At this time, I was sending out writing assignments to an external agency and I held a managing editor role. I identified Fellows with interesting stories, developed interview questions, and created detailed writing guides for the agency. I also partnered with design on the hero images.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article 1",
+                        "buttonURL": "https://research.facebook.com/blog/2021/7/facebook-fellow-spotlight-empowering-women-in-rural-communities-through-research-in-hci/"
+                    }, 
+                    {
+                        "buttonTitle": "Read Article 2",
+                        "buttonURL": "https://research.facebook.com/blog/2022/8/meta-research-phd-fellowship-spotlight-pioneering-the-future-of-privacy-with-zero-knowledge-proofs/"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
+                "title": "Series: Academic of the Month",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "2021 - 2022",
+                "description": "Here are two example blog posts of a spotlight series that I developed called Academic of the Month. Internally, I established a nomination process for Meta researchers and program managers to identify external academic partners that we would then honor and highlight on our blog each month. I started out writing the interview questions, sourcing the answers from academics, and crafting all the content into a final product, but I eventually offloaded these writing responsibilities to an external writing agency. I also partnered with design to create the hero images.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article 1",
+                        "buttonURL": "https://research.facebook.com/blog/2021/6/qa-with-stanford-professor-balaji-prabhakar-longtime-university-collaborator-with-facebook/"
+                    }, 
+                    {
+                        "buttonTitle": "Read Article 2",
+                        "buttonURL": "https://research.facebook.com/blog/2021/7/qa-with-christian-kroer-columbia-professor-and-facebook-fellowship-alum/"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
+                "title": "Article: The six most common Fellowship questions, answered by Facebook Fellow Moses Namara",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "August 2020",
+                "description": "While I managed the Meta Research website, this was one of our most popular blog posts. I partnered with a program manager to develop a Fellowship blog series that was meant to help PhD students with their Fellowship applications. My role involved sourcing content from Meta Research Fellow Moses Namara, crafting it into a fully formed blog (including image), staging on WordPress, posting, and tracking its success.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article",
+                        "buttonURL": "https://research.facebook.com/blog/2020/8/the-six-most-common-fellowship-questions-answered-by-facebook-fellow-moses-namara/"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
+                "title": "Article: Fellowship 101: Facebook Fellow Daricia Wilkinson outlines the basics for PhDs",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "August 2020",
+                "description": "While I managed the Meta Research website, this was another one of our most popular blog posts from the aforementioned Fellowship blog series (see previous). We were inspired by a blog post that Meta Research Fellow Daricia Wilkinson wrote on her own website. My role for this project was the same as the previous article with Moses.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article",
+                        "buttonURL": "https://research.facebook.com/blog/2020/8/fellowship-101-facebook-fellow-daricia-wilkinson-outlines-the-basics-for-phds/"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
+                "title": "Article: Five tips for a successful Facebook Fellowship application from the people who review them",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "September 2020",
+                "description": "This is another popular blog in the aforementioned Fellowship blog series. I spoke with several Meta research scientists and sourced content for this blog post. I then crafted it into a fully formed blog, partnered with design to create the image, staged it on WordPress, posted it, coordinated promotion on social media, and tracked its success.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article",
+                        "buttonURL": "https://research.facebook.com/blog/2020/9/five-tips-for-a-successful-facebook-fellowship-application-from-the-people-who-review-them/"
+                    }
+                ]
+            }
+        ]
+    }
+]

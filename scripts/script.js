@@ -16,39 +16,60 @@ fetch(path)
     })
     .then(data => {
       data.forEach(item => {
-        const content = document.createElement("div");
-        content.className = "card";
+        const header = document.createElement("div");
+        header.innerHTML = `<h3 id="${item.id}">${item.headerTitle}</h3>`;
+        container.appendChild(header);
 
-        const buttons = document.createElement("button");
-        let buttonHTML = ``;
+            item.cardContent.forEach(item => {
+                const content = document.createElement("div");
+                content.className = "card";
 
-        if (item.buttons) {
-            let newString = "";
-            item.buttons.forEach(item => {
-                let temp = `<button><a href=${item.buttonURL}>${item.buttonTitle}</a></button>`;
-                newString = newString + " " + temp;
+                if (item.id == "cardsBtn") {
+                    const content = document.createElement("div");
+                    content.className = "card";
+                    const buttons = document.createElement("button");
+                    let buttonHTML = ``;
+                    let newString = "";
+
+                    item.buttons.forEach(item => {
+                        let temp = `<button><a href=${item.buttonURL}>${item.buttonTitle}</a></button>`;
+                        newString = newString + " " + temp;
+                    })
+                    buttonHTML = newString;
+
+                    content.innerHTML = `
+                        <h4>${item.title}</h4>
+                        <p class="subtitle-1">${item.subtitle1}</p>
+                        <p class="subtitle-2">${item.subtitle2}</p>
+                        ${item.description}
+                        <div class="spacer"></div>
+                        <div class="button-space">
+                        ${buttonHTML}
+                        </div>
+                    `;
+                    container.appendChild(content);
+                } else if (item.id == "cardsDesc") {
+                    console.log("cardsDesc");
+                    content.innerHTML = `
+                        ${item.description}
+                    `;
+                    container.appendChild(content);
+                } else {
+                    const content = document.createElement("div");
+                    content.className = "card";
+
+                    content.innerHTML = `
+                        <h4>${item.title}</h4>
+                        <p class="subtitle-1">${item.subtitle1}</p>
+                        <p class="subtitle-2">${item.subtitle2}</p>
+                        ${item.description}
+                    `;
+                    container.appendChild(content);
+                }
+
             })
-            buttonHTML = newString;
-            content.innerHTML = `
-            <h4>${item.title}</h4>
-            <p class="subtitle-1">${item.subtitle1}</p>
-            <p class="subtitle-2">${item.subtitle2}</p>
-            ${item.description}
-            <div class="spacer"></div>
-            ${buttonHTML}
-            `;
-        } else {
-            content.innerHTML = `
-            <h4>${item.title}</h4>
-            <p class="subtitle-1">${item.subtitle1}</p>
-            <p class="subtitle-2">${item.subtitle2}</p>
-            ${item.description}
-            `;
-        }
-
-        container.appendChild(content);
-      })
     })
+})
     .catch(error => {
       console.error("Error fetching the JSON: ", error);
       container.textContent = "Error loading content";

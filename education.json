@@ -1,14 +1,21 @@
 [
     {
-        "title": "MS in Computer Science",
-        "subtitle1": "Northeastern University, Silicon Valley",
-        "subtitle2": "September 2021 - May 2024",
-        "description": "Relevant coursework: Web Development, Information Retrieval, Human-Computer Interaction, Object-Oriented Design, Algorithms, Data Structures"
-    }, 
-    {
-        "title": "BA in Linguistics",
-        "subtitle1": "University of California, Santa Cruz",
-        "subtitle2": "August 2010 - March 2014",
-        "description": "Relevant coursework: Advanced Topics in Syntax (graduate-level), Semantics (graduate-level), Natural Language Acquisition (graduate-level)"
+        "headerTitle": "Degrees", 
+        "cardContent": [
+            {
+                "id": "cardsNoBtn", 
+                "title": "MS in Computer Science",
+                "subtitle1": "Northeastern University, Silicon Valley",
+                "subtitle2": "September 2021 - May 2024",
+                "description": "Relevant coursework: Web Development, Information Retrieval, Human-Computer Interaction, Object-Oriented Design, Algorithms, Data Structures"
+            }, 
+            {
+                "id": "cardsNoBtn", 
+                "title": "BA in Linguistics",
+                "subtitle1": "University of California, Santa Cruz",
+                "subtitle2": "August 2010 - March 2014",
+                "description": "Relevant coursework: Advanced Topics in Syntax (graduate-level), Semantics (graduate-level), Natural Language Acquisition (graduate-level)"
+            }
+        ]
     }
 ]
