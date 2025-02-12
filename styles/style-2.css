@@ -70,6 +70,14 @@ header {
     align-items: flex-start;
 }
 
+@media (max-width: 800px) {
+    .button-space {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 /* cards */
 .card-container {
     display: flex;
