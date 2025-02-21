@@ -8,7 +8,7 @@
                 "title": "Macro Math (in progress)",
                 "subtitle1": "Mobile app",
                 "subtitle2": "Summer 2024 - present",
-                "description": "Macro Math is a React app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am the sole contributor of this project and created the Figma prototype myself. My next step is to start a GitHub repo and start coding before finishing the prototype.", 
+                "description": "Macro Math is a React app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am the sole contributor of this project and created the Figma prototype myself. Most recently (February 2025), I created all the screens and bottom navigation tabs and styled the headers. My next step is to create a GitHub repo so I can share my progress while I continue coding the screens and basic functionalities that I have finished prototyping. See the Figma prototype below.",
                 "buttons": [
                     {
                         "buttonTitle": "Figma",
