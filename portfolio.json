@@ -7,7 +7,7 @@
                 "id": "cardsBtn",
                 "title": "Macro Math (in progress)",
                 "subtitle1": "Mobile app",
-                "subtitle2": "2024 - present",
+                "subtitle2": "Summer 2024 - present",
                 "description": "Macro Math is a React app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am the sole contributor of this project and created the Figma prototype myself. My next step is to start a GitHub repo and start coding before finishing the prototype.", 
                 "buttons": [
                     {
@@ -21,7 +21,7 @@
                 "title": "Personal website",
                 "subtitle1": "Web app",
                 "subtitle2": "Winter 2022 - present",
-                "description": "I created this website from scratch using JavaScript, HTML, and CSS. I created a Figma prototype of how I wanted to update it from when I was in college, when I used Bootstrap components.",
+                "description": "I created this website from scratch using JavaScript, HTML, and CSS. My most recent update involved moving page content to from HTML files to JSON files and writing a script to iteratively populate them into styled cards on each page. I defined card types based on the content on my website (like buttons vs no buttons) and attributed IDs to them so I could style them in one script based on their type, as opposed to using a different script per card and repeating code.",
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
@@ -34,7 +34,7 @@
                 "title": "This Is Where",
                 "subtitle1": "Web app",
                 "subtitle2": "Winter 2022",
-                "description": "For my Web Dev class, a classmate and I chose to create This Is Where, an app where people can share a sentiment that is connected to a place in time in the SF Bay Area. It was built with a React frontend and Node backend",
+                "description": "For my Web Dev class, a classmate and I chose to create This Is Where, an app where people can share a sentiment that is connected to a place in time in the SF Bay Area. We built it with a React frontend and Node backend. We both contributed to the backend and frontend, but my main focus was frontend and UX design.",
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
@@ -51,7 +51,7 @@
                 "title": "DTR",
                 "subtitle1": "Web app",
                 "subtitle2": "Winter 2022",
-                "description": "For my Web Dev class, a classmate and I chose to create Dater, an app for after the first date. Users can log dates with other users and answer questions to discover compatibility. It was built with a Node backend and vanilla JS frontend.", 
+                "description": "For my Web Dev class, a classmate and I conceptualized Dater, an app where users can answer compatibility questions after a first date. The idea is that they can only see their date's answers if they answer their own. It's meant to encourage and facilitate openness and honesty in dating, with oneself and others. We built it with a Node backend and vanilla JS frontend, and my main focus was frontend and UX design.", 
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
@@ -74,7 +74,7 @@
                 "title": "Article: Turing Award presented to Yann LeCun, Geoffrey Hinton, and Yoshua Bengio",
                 "subtitle1": "Writing",
                 "subtitle2": "March 2019",
-                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann Lecun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. I wrote an article about him for the Meta AI Research blog, which a colleague edited and posted.", 
+                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann LeCun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. Below is the article I wrote about him for the Meta AI Research blog, which a colleague edited and posted.", 
                 "buttons": [
                     {
                         "buttonTitle": "Read Article",
@@ -107,7 +107,7 @@
         "cardContent": [
             {
                 "id": "cardsBtn",
-                "title": "Website: Meta Research Website",
+                "title": "Website: Meta Research",
                 "subtitle1": "Strategy & Management",
                 "subtitle2": "May 2018 - November 2022",
                 "description": "For a little over four years, I was the main point person for the Meta Research website. I held a Managing Editor role for the blog, I partnered with an external team of web developers on large-scale web optimization projects and bug tracking, and I led content strategy for the entire site. For a significant time, I was the lone gatekeeper for the entire site, but I eventually hired, trained, and supervised a content coordinator to take over my role of posting ongoing content such as publications, RFPs, and bios. I also partnered with a designer to maintain consistent branding throughout the site.", 
