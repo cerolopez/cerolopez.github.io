@@ -8,8 +8,12 @@
                 "title": "Macro Math (in progress)",
                 "subtitle1": "Mobile app",
                 "subtitle2": "Summer 2024 - present",
-                "description": "Macro Math is a mobile app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am using a React Native frontend and will likely use a Node.js backend. I am the sole contributor of this project and created the Figma prototype (below) myself. Most recently (February 2025), I created all the screens and bottom navigation tabs and styled the headers. My next step is to create a GitHub repo so I can share my progress while I continue coding the screens and basic functionalities that I have finished prototyping.",
+                "description": "Macro Math is a mobile app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am using a React Native frontend and will likely use a Node.js backend. I am the sole contributor of this project and created the Figma prototype (below) myself. Most recently (February 2025), I created all the screens and bottom navigation tabs and styled the headers and published my code to GitHub.",
                 "buttons": [
+                    {
+                        "buttonTitle": "GitHub",
+                        "buttonURL": "https://github.com/cerolopez/MacroMath"
+                    },
                     {
                         "buttonTitle": "Figma",
                         "buttonURL": "https://www.figma.com/proto/VxtRCdlNNYdEIu7SlhJVoL/Macro-Math?node-id=0-1&t=f8WjBhimKnLrf1SK-1"
@@ -21,7 +25,7 @@
                 "title": "Personal website",
                 "subtitle1": "Web app",
                 "subtitle2": "Winter 2022 - present",
-                "description": "I created this website from scratch using JavaScript, HTML, and CSS. My most recent update involved moving page content to from HTML files to JSON files and writing a script to iteratively populate them into styled cards on each page. I defined card types based on the content on my website (like buttons vs no buttons) and attributed IDs to them so I could style them in one script based on their type, as opposed to using a different script per card and repeating code.",
+                "description": "I created this website from scratch using JavaScript, HTML, and CSS. My most recent update involved moving page content from HTML files to JSON files and writing a script to iteratively populate them into styled cards on each page. I defined card types based on the content on my website (like buttons vs no buttons) and attributed IDs to them so I could style them in one script based on their type, as opposed to using a different script per card and repeating code.",
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
