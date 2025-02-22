@@ -39,8 +39,7 @@ fetch(path)
 
                     content.innerHTML = `
                         <h4>${item.title}</h4>
-                        <p class="subtitle-1">${item.subtitle1}</p>
-                        <p class="subtitle-2">${item.subtitle2}</p>
+                        <p class="subtitle-1">${item.subtitle1}<br>${item.subtitle2}</p>
                         ${item.description}
                         <div class="spacer"></div>
                         <div class="button-space">
@@ -60,8 +59,7 @@ fetch(path)
 
                     content.innerHTML = `
                         <h4>${item.title}</h4>
-                        <p class="subtitle-1">${item.subtitle1}</p>
-                        <p class="subtitle-2">${item.subtitle2}</p>
+                        <p class="subtitle-1">${item.subtitle1}<br>${item.subtitle2}</p>
                         ${item.description}
                     `;
                     container.appendChild(content);
