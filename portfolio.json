@@ -1,12 +1,25 @@
 [
     {
-        "headerTitle": "Frontend Dev & UX", 
-        "id": "frontend-ux",
+        "headerTitle": "Web Dev & UX", 
+        "id": "web-dev-ux",
         "cardContent": [
             {
                 "id": "cardsBtn",
+                "title": "Intranet Revamp",
+                "subtitle1": "UX & User Research",
+                "subtitle2": "May 2024 - present",
+                "description": "This is an ongoing intranet redesign project for a research nonprofit client. So far I have conducted user interviews and iterated on wireframes based on my findings.<br><br>**Note that the UXFolio link below is password-protected; please reach out if you'd like to see it.",
+                "buttons": [
+                    {
+                        "buttonTitle": "UXFolio",
+                        "buttonURL": "https://uxfol.io/p/23aa39d9/intranet-revamp"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
                 "title": "Macro Math (in progress)",
-                "subtitle1": "Mobile app",
+                "subtitle1": "UX, Design, & Frontend",
                 "subtitle2": "Summer 2024 - present",
                 "description": "Macro Math is a mobile app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am using a React Native frontend and will likely use a Node.js backend. I am the sole contributor of this project and created the Figma prototype (below) myself. Most recently (February 2025), I created all the screens and bottom navigation tabs and styled the headers and published my code to GitHub.",
                 "buttons": [
@@ -17,13 +30,17 @@
                     {
                         "buttonTitle": "Figma",
                         "buttonURL": "https://www.figma.com/proto/VxtRCdlNNYdEIu7SlhJVoL/Macro-Math?node-id=0-1&t=f8WjBhimKnLrf1SK-1"
+                    }, 
+                    {
+                        "buttonTitle": "UXFolio",
+                        "buttonURL": "https://uxfol.io/p/23aa39d9/macromath"
                     }
                 ]
             }, 
             {
                 "id": "cardsBtn",
                 "title": "Personal website",
-                "subtitle1": "Web app",
+                "subtitle1": "UX, Design, & Frontend",
                 "subtitle2": "Winter 2022 - present",
                 "description": "I created this website from scratch using JavaScript, HTML, and CSS. My most recent update involved moving page content from HTML files to JSON files and writing a script to iteratively populate them into styled cards on each page. I defined card types based on the content on my website (like buttons vs no buttons) and attributed IDs to them so I could style them in one script based on their type, as opposed to using a different script per card and repeating code.",
                 "buttons": [
@@ -36,9 +53,9 @@
             {
                 "id": "cardsBtn",
                 "title": "This Is Where",
-                "subtitle1": "Web app",
+                "subtitle1": "Frontend",
                 "subtitle2": "Winter 2022",
-                "description": "For my Web Dev class, a classmate and I chose to create This Is Where, an app where people can share a sentiment that is connected to a place in time in the SF Bay Area. We built it with a React frontend and Node backend. We both contributed to the backend and frontend, but my main focus was frontend and UX design.",
+                "description": "For my Web Dev class, a classmate and I chose to create This Is Where, an app where people can share a sentiment that is connected to a place in time in the SF Bay Area. We built it with a React frontend and Node backend. We both contributed to the backend and frontend, but my main focus was frontend. We were also using Figma for the first time.",
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
@@ -53,9 +70,9 @@
             {
                 "id": "cardsBtn",
                 "title": "DTR",
-                "subtitle1": "Web app",
+                "subtitle1": "Frontend",
                 "subtitle2": "Winter 2022",
-                "description": "For my Web Dev class, a classmate and I conceptualized Dater, an app where users can answer compatibility questions after a first date. The idea is that they can only see their date's answers if they answer their own. It's meant to encourage and facilitate openness and honesty in dating, with oneself and others. We built it with a Node backend and vanilla JS frontend, and my main focus was frontend and UX design.", 
+                "description": "For my Web Dev class, a classmate and I conceptualized Dater, an app where users can answer compatibility questions after a first date. The idea is that they can only see their date's answers if they answer their own. It's meant to encourage and facilitate openness and honesty in dating, with oneself and others. We built it with a Node backend and vanilla JS frontend, and my main focus was frontend. We were also using Figma for the first time.", 
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
@@ -66,40 +83,17 @@
                         "buttonURL": "https://www.figma.com/design/N8zzw8ZS8WbesDuE0PUzl4/DATER?node-id=52-4&t=C4i913kKSuMEM99s-1"
                     }
                 ]
-            }
-        ]
-    }, 
-    {
-        "headerTitle": "Writing & Editing", 
-        "id": "writing-editing",
-        "cardContent": [
-            {
-                "id": "cardsBtn",
-                "title": "Article: Turing Award presented to Yann LeCun, Geoffrey Hinton, and Yoshua Bengio",
-                "subtitle1": "Writing",
-                "subtitle2": "March 2019",
-                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann LeCun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. Below is the article I wrote about him for the Meta AI Research blog, which a colleague edited and posted.", 
-                "buttons": [
-                    {
-                        "buttonTitle": "Read Article",
-                        "buttonURL": "https://ai.meta.com/blog/-turing-award-presented-to-yann-lecun-geoffrey-hinton-and-yoshua-bengio/"
-                    }
-                ]
             }, 
             {
                 "id": "cardsBtn",
-                "title": "College 101 Essay Examples",
-                "subtitle1": "Writing & Editing",
-                "subtitle2": "2014 - 2017",
-                "description": "While I worked at e-learning startup Shmoop University, Inc., I wrote example college essays for the College 101 section of our website. I took common college essay prompts and responded to them as if I were a high schooler. I also edited these myself. My three essays ended up garnering over 10,000 views each over a two-week period when web traffic was expected to be low (during the holidays). It was such an accomplishment that my manager announced it to the rest of the content team and asked me to write more. Below are two examples from the first batch.", 
+                "title": "Research award improvements",
+                "subtitle1": "UX Design",
+                "subtitle2": "2021",
+                "description": "While I managed the Meta Research website, one of my responsibilities was managing a PO for our web vendor, who helped us with site improvements and bug fixes. For this particular project, I identified an area for improvement in how returning users experienced and interacted with research award information.", 
                 "buttons": [
                     {
-                        "buttonTitle": "Read Essay 1",
-                        "buttonURL": "https://www.shmoop.com/college/minority-college-essay-challenging-beliefs.html"
-                    }, 
-                    {
-                        "buttonTitle": "Read Essay 2",
-                        "buttonURL": "https://www.shmoop.com/college/minority-college-essay-accomplishment.html"
+                        "buttonTitle": "UXFolio",
+                        "buttonURL": "https://uxfol.io/p/23aa39d9/research-awards"
                     }
                 ]
             }
@@ -109,19 +103,6 @@
         "headerTitle": "Content Strategy", 
         "id": "content-strategy",
         "cardContent": [
-            {
-                "id": "cardsBtn",
-                "title": "Website: Meta Research",
-                "subtitle1": "Strategy & Management",
-                "subtitle2": "May 2018 - November 2022",
-                "description": "For a little over four years, I was the main point person for the Meta Research website. I held a Managing Editor role for the blog, I partnered with an external team of web developers on large-scale web optimization projects and bug tracking, and I led content strategy for the entire site. For a significant time, I was the lone gatekeeper for the entire site, but I eventually hired, trained, and supervised a content coordinator to take over my role of posting ongoing content such as publications, RFPs, and bios. I also partnered with a designer to maintain consistent branding throughout the site.", 
-                "buttons": [
-                    {
-                        "buttonTitle": "See Website",
-                        "buttonURL": "https://research.facebook.com/"
-                    }
-                ]
-            },
             {
                 "id": "cardsBtn",
                 "title": "Series: Facebook Fellowship Spotlight",
@@ -192,6 +173,42 @@
                     {
                         "buttonTitle": "Read Article",
                         "buttonURL": "https://research.facebook.com/blog/2020/9/five-tips-for-a-successful-facebook-fellowship-application-from-the-people-who-review-them/"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "headerTitle": "Writing & Editing", 
+        "id": "writing-editing",
+        "cardContent": [
+            {
+                "id": "cardsBtn",
+                "title": "Article: Turing Award presented to Yann LeCun, Geoffrey Hinton, and Yoshua Bengio",
+                "subtitle1": "Writing",
+                "subtitle2": "March 2019",
+                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann LeCun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. Below is the article I wrote about him for the Meta AI Research blog, which a colleague edited and posted.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article",
+                        "buttonURL": "https://ai.meta.com/blog/-turing-award-presented-to-yann-lecun-geoffrey-hinton-and-yoshua-bengio/"
+                    }
+                ]
+            }, 
+            {
+                "id": "cardsBtn",
+                "title": "College 101 Essay Examples",
+                "subtitle1": "Writing & Editing",
+                "subtitle2": "2014 - 2017",
+                "description": "While I worked at e-learning startup Shmoop University, Inc., I wrote example college essays for the College 101 section of our website. I took common college essay prompts and responded to them as if I were a high schooler. I also edited these myself. My three essays ended up garnering over 10,000 views each over a two-week period when web traffic was expected to be low (during the holidays). It was such an accomplishment that my manager announced it to the rest of the content team and asked me to write more. Below are two examples from the first batch.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Essay 1",
+                        "buttonURL": "https://www.shmoop.com/college/minority-college-essay-challenging-beliefs.html"
+                    }, 
+                    {
+                        "buttonTitle": "Read Essay 2",
+                        "buttonURL": "https://www.shmoop.com/college/minority-college-essay-accomplishment.html"
                     }
                 ]
             }
