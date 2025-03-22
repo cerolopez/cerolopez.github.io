@@ -48,7 +48,6 @@ fetch(path)
                     `;
                     container.appendChild(content);
                 } else if (item.id == "cardsDesc") {
-                    console.log("cardsDesc");
                     content.innerHTML = `
                         ${item.description}
                     `;
