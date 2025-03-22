@@ -1,8 +1,29 @@
 [
     {
-        "headerTitle": "Web Dev & UX", 
-        "id": "web-dev-ux",
+        "headerTitle": "Coding & UX", 
+        "id": "coding-ux",
         "cardContent": [
+            {
+                "id": "cardsBtn",
+                "title": "Behalf Bot",
+                "subtitle1": "Prompt engineering, fullstack web dev, UX",
+                "subtitle2": "March 2025 - present",
+                "description": "I built Behalf Bot to help recruiters and hiring managers parse through my uniquely diverse background. Building off OpenAI's GPT-4, I curated responses by curating instructions based off various use cases, providing data available on my LinkedIn and website. I built the chatbot using Flask and deployed on Render. Languages: Python, JavaScript, HTML, CSS. Fully live and operational at the link below.",
+                "buttons": [
+                    {
+                        "buttonTitle": "Website",
+                        "buttonURL": "https://behalf-bot.onrender.com/"
+                    },
+                    {
+                        "buttonTitle": "Figma",
+                        "buttonURL": "https://www.figma.com/proto/jF0ICriuOsl4um4eCvzERg/Behalf-Bot?node-id=1-2&p=f&t=31J9P3rJsk9tcNE9-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
+                    },
+                    {
+                        "buttonTitle": "GitHub",
+                        "buttonURL": "https://github.com/cerolopez/behalf-bot"
+                    }
+                ]
+            },
             {
                 "id": "cardsBtn",
                 "title": "Intranet Revamp",
@@ -39,7 +60,7 @@
             }, 
             {
                 "id": "cardsBtn",
-                "title": "Personal website",
+                "title": "Professional Website",
                 "subtitle1": "UX, Design, & Frontend",
                 "subtitle2": "Winter 2022 - present",
                 "description": "I created this website from scratch using JavaScript, HTML, and CSS. My most recent update involved moving page content from HTML files to JSON files and writing a script to iteratively populate them into styled cards on each page. I defined card types based on the content on my website (like buttons vs no buttons) and attributed IDs to them so I could style them in one script based on their type, as opposed to using a different script per card and repeating code.",
