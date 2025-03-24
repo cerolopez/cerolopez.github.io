@@ -10,7 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style-2.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#8842FA', // Custom primary color
+              secondary: '#D7E1ED', // Custom secondary color
+            },
+          },
+        },
+      };
+    </script>
+
   </head>
 
 <!-- Page content -->
@@ -26,55 +40,37 @@
         document.getElementById('navbar').innerHTML = data;
       });
   </script>
-  
 
   <!-- Begin header -->
   <header>
-    <div class="header-container">
-      <div class="header-item-left">
-        <div class="headshot">
-          <img src="/images/headshot.jpeg" id="headshot-img" alt="Headshot of Cecilia">
-        </div>
-      </div>
-      <div class="header-item-right">
-        <div class="about-blurb">
-          <h2>About Cecilia</h2>
-          <p>I am a tech professional with 10+ years of experience in writing/editing and content strategy who recently graduated with a Master's degree in Computer Science from Northeastern University.<p></p>I'm eager to apply my uniquely diverse range of skills to a full-time role at a company that can see the value in my non-traditional background. I have many skills and interests, but overall I am passionate about creating beautiful, frictionless user experiences guided by empathy and strategic visual design.</p>
-        </div>
-      </div>
+    <div class="flex flex-col gap-5">
+      <h2 class="text-3xl font-semibold">About</h2>
     </div>
   </header>
 
     <!-- Begin main content-->
-  <main>
-
-    <!-- <div class="card-title"><h3>My Journey to CS</h3></div>
-    <div class="card-container">
-      <div class="card">
-        <div class="card-content">
-            <p>During my undergrad, I remember being drawn to computer science, but being intimidated by the math prerequisites. I decided instead to pursue a Bachelor's in Linguistics, another passion of mine. After graduating in 2014, I found a writing/editing role at an e-learning startup and since then have been working in similar roles.</p><p>
-              I figured that ship had sailed until around 2019 when I learned about the Northeastern MSCS Align Program, which is designed for people who didn't major in CS in their undergrad. Almost a whole decade had passed since I'd last considered pursuing a STEM field, and I was completely different from the young girl in 2010 who was too scared to take calculus. Years of experience had given me the wisdom to know that fundamentally, I was no different than anyone else who studies computer science. I just needed the guts to work at it.
-            </p>
-              After mulling it over for a couple more years, I finally decided to go for it and enrolled in the program in 2021. For about a year, I continued to work full-time at Meta while in grad school full-time. I was also recruited for a part-time role representing my campus and speaking to prospective students — and I was a volunteer student mentor. Balancing work and school was by far the most challenging thing I've ever done, but with the support of my peers, professors, and loved ones, I graduated with my cohort in May 2024.
-          </p><p>
-              Since then, I have been working part-time while I figure out what to do next, but I'm currently seeking full-time employment. I'm very eager to apply my uniquely diverse range of skills to a new role on a team that sees value in my non-traditional background. I have many skills and interests, but overall I am passionate about creating beautiful, frictionless user experiences guided by empathy and strategic visual design.
-              </p>
+    <main>
+      <div class="grid grid-cols-1 gap-10">
+        <div>
+          <div class="flex flex-col md:flex-row gap-10">
+            <div class="w-full md:w-1/3 grid place-items-center">
+              <img src="/images/headshot.jpeg" id="headshot-img" alt="Headshot of Cecilia">
+            </div>
+            <div class="w-full md:w-2/3">
+              <!-- <h3 class="text-2xl font-semibold">Summary</h3> -->
+              <div class="bg-white p-2 sm:p-4 md:p-8 lg:p-12 shadow-md rounded-lg">
+                <p>I am a tech professional with 10+ years of experience in writing/editing and content strategy who recently graduated with a Master's degree in Computer Science from Northeastern University.</p>
+                <br>
+                <p>I'm eager to apply my uniquely diverse range of skills to a full-time role at a company that can see the value in my non-traditional background.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="card-container">
+          <script src="scripts/script.js"></script>
         </div>
       </div>
-    </div>  -->
-
-    <div class="card-title"><h3>Contact</h3></div>
-    <div class="card-container">
-      <div class="card">
-        <div class="card-content">
-            <p>If you'd like to get in touch for whatever reason, you can send me a message 
-              on <a href="https://www.linkedin.com/in/cecilia-r-lopez/">LinkedIn</a> 
-              or you can shoot me an email at lopezceciliarose at gmail dot com</p>
-        </div>
-      </div>
-    </div> 
-
-  </main>
+    </main>
 
   <!-- Begin nav bar -->
   <div id="footer"></div>
@@ -87,14 +83,8 @@
       });
   </script>
 
-  <script src="scripts/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   crossorigin="anonymous"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-  crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-  crossorigin="anonymous"></script> -->
-  <!-- <script src="//www.instagram.com/embed.js"></script> -->
 </body>
 
 </html>

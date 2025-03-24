@@ -1,21 +1,45 @@
 [
     {
         "headerTitle": "Degrees", 
+        "id": "col-1",
         "cardContent": [
             {
-                "id": "cardsNoBtn", 
                 "title": "MS in Computer Science",
-                "subtitle1": "Northeastern University, Silicon Valley",
-                "subtitle2": "September 2021 - May 2024",
-                "description": "Relevant coursework: Web Development, Information Retrieval, Human-Computer Interaction, Object-Oriented Design, Algorithms, Data Structures"
+                "subtitle": "Northeastern University | September 2021 - May 2024",
+                "topics": ["Web Development", "Information Retrieval", "Human-Computer Interaction", "Machine Learning", "Natural Language Processing", "Object-Oriented Design", "Algorithms", "Data Structures"]
             }, 
             {
-                "id": "cardsNoBtn", 
                 "title": "BA in Linguistics",
-                "subtitle1": "University of California, Santa Cruz",
-                "subtitle2": "August 2010 - March 2014",
-                "description": "Relevant coursework: Advanced Topics in Syntax (graduate-level), Semantics (graduate-level), Natural Language Acquisition (graduate-level)"
+                "subtitle": "University of California, Santa Cruz | August 2010 - March 2014",
+                "topics": ["Advanced Topics in Syntax", "Semantics", "Natural Language Acquisition", "Phonology", "Spanish 3-6", "Hispanic Linguistics", "The Humor in Spanish"]
+            }
+        ]
+    }, 
+    {
+        "headerTitle": "Online Courses & Certificates", 
+        "id": "col-2",
+        "cardContent": [
+            {
+                "title": "ChatGPT Prompt Engineering for Developers",
+                "subtitle": "Coursera, DeepLearning.AI | Mar 2025"
+            },
+            {
+                "title": "React Native",
+                "subtitle": "Coursera | Nov 2024"
+            }, 
+            {
+                "title": "React Basics",
+                "subtitle": "Coursera | Jun 2024"
+            }, 
+            {
+                "title": "Advanced Learning Algorithms",
+                "subtitle": "Coursera | May 2023"
+            }, 
+            {
+                "title": "Supervised ML: Regression & Classification",
+                "subtitle": "Coursera | Feb 2024"
             }
         ]
     }
+
 ]

@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="styles/style-2.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#8842FA', // Custom primary color
+              secondary: '#D7E1ED', // Custom secondary color
+            },
+          },
+        },
+      };
+    </script>
+    
   </head>
 
 <!-- Page content -->
@@ -30,31 +44,30 @@
 
   <!-- Begin header -->
   <header>
-    <div class="header-container">
-      <div class="header-item-left">
-        <div class="header-title">
-          <h2>Portfolio</h2>
-        </div>
-        <div class="blurb">
-          <p>I have a wide range of professional and academic experience with websites, including content management, writing/editing, UX/UI, and web development. See the links below to explore the projects I've done in each category.</p>
-          <div class="spacer"></div>
-          <div class="button-space">
-            <button><a href="#coding-ux">Coding & UX</a></button>
-            <button><a href="#content-strategy">Content Strategy</a></button>
-            <button><a href="#writing-editing">Writing & Editing</a></button>
-          </div>
-        </div>        
+    <div class="flex flex-col gap-5">
+      <h2 class="text-3xl font-semibold">Portfolio</h2>
+      <div class="flex flex-col md:flex-row gap-2">
+        <button class="flex items-center gap-2 px-4 py-2 border border-gray-500 text-black-500 rounded-md hover:bg-gray-500 hover:text-white"><a href="#web-mobile-apps">Web & Mobile Apps</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m-6-6l6 6 6-6" />
+        </svg>
+        </button>
+        <button class="flex items-center gap-2 px-4 py-2 border border-gray-500 text-black-500 rounded-md hover:bg-gray-500 hover:text-white"><a href="#content-design-ux">Content Design & UX</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m-6-6l6 6 6-6" />
+        </svg>
+        </button>
+        <button class="flex items-center gap-2 px-4 py-2 border border-gray-500 text-black-500 rounded-md hover:bg-gray-500 hover:text-white"><a href="#content-strategy-production">Content Strategy & Production</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m-6-6l6 6 6-6" />
+        </svg>
+        </button>
       </div>
     </div>
   </header>
 
     <!-- Begin main content-->
   <main>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-
-
     <div id="card-container">
       <script src="scripts/script.js"></script>
     </div>
@@ -72,7 +85,6 @@
       });
   </script>
 
-  <script src="scripts/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   crossorigin="anonymous"></script>
 </body>
