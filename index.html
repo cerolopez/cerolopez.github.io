@@ -8,23 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style-2.css">
+    <link rel="stylesheet" href="styles/hero-style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: '#8842FA', // Custom primary color
-              secondary: '#D7E1ED', // Custom secondary color
-            },
-          },
-        },
-      };
-    </script>
-
   </head>
 
 <!-- Page content -->
@@ -40,29 +25,27 @@
         document.getElementById('navbar').innerHTML = data;
       });
   </script>
+  
 
   <!-- Begin header -->
-    <!-- Begin main content-->
-    <main class="bg-[#D7E1ED] py-20">
-      <div class="flex flex-col py-20 gap-5">
-        <div>
-          <h1 class="text-6xl font-extrabold">Hi, I'm Cecilia</h1>
-        </div>
-        <div></div>
-        <div class="flex flex-wrap flex-row md:flex-row gap-2">
-          <p class="px-4 py-2 text-sm font-semibold border border-[#8842FA] text-[#8842FA] rounded-3xl">Web Development</p>
-          <p class="px-4 py-2 text-sm font-semibold border border-[#8842FA] text-[#8842FA] rounded-3xl">Content Strategy</p>
-          <p class="px-4 py-2 text-sm font-semibold border border-[#8842FA] text-[#8842FA] rounded-3xl">UX & Design</p>
-        </div>
-        <div class="flex flex-col w-full md:w-3/4 gap-2">
-          <p><strong>I'm a creative with a technical background who's interested in crafting seamless user experiences.</strong> If you're a recruiter or hiring manager interested in my uniquely diverse background, I've prompt-engineered a GPT-4 chatbot to answer common interview questions on my behalf.</p>
-        </div>
-        <div>
-          <button class="btn"><a href="https://behalf-bot.onrender.com/">Learn More</a></button>
-        </div>
+  <header>
+    <div class="hero-container">
+      <div class="hero-title">
+        <h1>Cecilia Lopez</h1>
       </div>
-      
-    </main>
+      <div class="hero-tagline">
+        <p>Creating frictionless digital experiences from concept to content to code</p>
+      </div>
+      <div class="hero-button">
+        <button class="cta-btn" type="button"><a href="https://www.linkedin.com/in/cecilia-r-lopez/">LinkedIn</a></button>
+      </div>
+    </div>
+  </header>
+
+    <!-- Begin main content-->
+  <main>
+
+  </main>
 
   <!-- Begin nav bar -->
   <div id="footer"></div>
@@ -75,6 +58,7 @@
       });
   </script>
 
+  <script src="scripts/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
   crossorigin="anonymous"></script>
 </body>

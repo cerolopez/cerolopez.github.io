@@ -1,12 +1,13 @@
 [
     {
-        "headerTitle": "Web & Mobile Apps", 
-        "id": "web-mobile-apps",
+        "headerTitle": "Coding & UX", 
+        "id": "coding-ux",
         "cardContent": [
             {
+                "id": "cardsBtn",
                 "title": "Behalf Bot",
-                "topics": ["Prompt Engineering", "Web Dev", "UX", "Design"],
-                "subtitle": "March 2025 - present",
+                "subtitle1": "Prompt engineering, fullstack web dev, UX",
+                "subtitle2": "March 2025 - present",
                 "description": "I built Behalf Bot to help recruiters and hiring managers parse through my uniquely diverse background. Building off OpenAI's GPT-4, I curated responses by curating instructions based off various use cases, providing data available on my LinkedIn and website. I built the chatbot using Flask and deployed on Render. Languages: Python, JavaScript, HTML, CSS. Fully live and operational at the link below.",
                 "buttons": [
                     {
@@ -24,9 +25,23 @@
                 ]
             },
             {
-                "title": "Macro Math",
-                "topics": ["Mobile Dev", "UX", "Design"],
-                "subtitle": "Summer 2024 - present",
+                "id": "cardsBtn",
+                "title": "Intranet Revamp",
+                "subtitle1": "UX & User Research",
+                "subtitle2": "May 2024 - present",
+                "description": "This is an ongoing intranet redesign project for a research nonprofit client. So far I have conducted user interviews and iterated on wireframes based on my findings.<br><br>**Note that the UXFolio link below is password-protected; please reach out if you'd like to see it.",
+                "buttons": [
+                    {
+                        "buttonTitle": "UXFolio",
+                        "buttonURL": "https://uxfol.io/p/23aa39d9/intranet-revamp"
+                    }
+                ]
+            },
+            {
+                "id": "cardsBtn",
+                "title": "Macro Math (in progress)",
+                "subtitle1": "UX, Design, & Frontend",
+                "subtitle2": "Summer 2024 - present",
                 "description": "Macro Math is a mobile app designed to make calculating macronutrients a lot easier for gym goers who like to cook their own recipes. I am using a React Native frontend and will likely use a Node.js backend. I am the sole contributor of this project and created the Figma prototype (below) myself. Most recently (February 2025), I created all the screens and bottom navigation tabs and styled the headers and published my code to GitHub.",
                 "buttons": [
                     {
@@ -44,10 +59,11 @@
                 ]
             }, 
             {
+                "id": "cardsBtn",
                 "title": "Professional Website",
-                "topics": ["UX", "Design", "Frontend Dev"],
-                "subtitle": "Winter 2022 - present",
-                "description": "I created this website using Vanilla JavaScript, HTML, and CSS. My most recent update involved implementing Tailwind CSS, simplifying the script that populates content onto cards based on content type, and making it so cards can also be organized into 2 and 3 columns.",
+                "subtitle1": "UX, Design, & Frontend",
+                "subtitle2": "Winter 2022 - present",
+                "description": "I created this website from scratch using JavaScript, HTML, and CSS. My most recent update involved moving page content from HTML files to JSON files and writing a script to iteratively populate them into styled cards on each page. I defined card types based on the content on my website (like buttons vs no buttons) and attributed IDs to them so I could style them in one script based on their type, as opposed to using a different script per card and repeating code.",
                 "buttons": [
                     {
                         "buttonTitle": "GitHub",
@@ -56,9 +72,10 @@
                 ]
             }, 
             {
+                "id": "cardsBtn",
                 "title": "This Is Where",
-                "topics": ["Web Dev", "Frontend", "Backend", "Design"],
-                "subtitle": "Winter 2022",
+                "subtitle1": "Fullstack",
+                "subtitle2": "Winter 2022",
                 "description": "For my Web Dev class, a classmate and I chose to create This Is Where, an app where people can share a sentiment that is connected to a place in time in the SF Bay Area. We built it with a React frontend and Node backend. We both contributed to the backend and frontend, but my main focus was frontend. We were also using Figma for the first time.",
                 "buttons": [
                     {
@@ -72,9 +89,10 @@
                 ]
             }, 
             {
+                "id": "cardsBtn",
                 "title": "DTR",
-                "topics": ["Web Dev", "Frontend", "Backend", "Design"],
-                "subtitle": "Winter 2022",
+                "subtitle1": "Fullstack",
+                "subtitle2": "Winter 2022",
                 "description": "For my Web Dev class, a classmate and I conceptualized Dater, an app where users can answer compatibility questions after a first date. The idea is that they can only see their date's answers if they answer their own. It's meant to encourage and facilitate openness and honesty in dating, with oneself and others. We built it with a Node backend and vanilla JS frontend, and my main focus was frontend. We were also using Figma for the first time.", 
                 "buttons": [
                     {
@@ -86,29 +104,12 @@
                         "buttonURL": "https://www.figma.com/design/N8zzw8ZS8WbesDuE0PUzl4/DATER?node-id=52-4&t=C4i913kKSuMEM99s-1"
                     }
                 ]
-            }
-        ]
-    }, 
-    {
-        "headerTitle": "Content Design & UX", 
-        "id": "content-design-ux",
-        "cardContent": [
+            }, 
             {
-                "title": "Intranet Revamp",
-                "topics": ["UX", "User Research"],
-                "subtitle": "May 2024 - present",
-                "description": "This is an ongoing intranet redesign project for a research nonprofit client. So far I have conducted user interviews and iterated on wireframes based on my findings.<br><br>**Note that the UXFolio link below is password-protected; please reach out if you'd like to see it.",
-                "buttons": [
-                    {
-                        "buttonTitle": "UXFolio",
-                        "buttonURL": "https://uxfol.io/p/23aa39d9/intranet-revamp"
-                    }
-                ]
-            },
-            {
-                "title": "Research Award Improvements",
-                "topics": ["UX Design"],
-                "subtitle": "2021",
+                "id": "cardsBtn",
+                "title": "Research award improvements",
+                "subtitle1": "UX Design",
+                "subtitle2": "2021",
                 "description": "While I managed the Meta Research website, one of my responsibilities was managing a PO for our web vendor, who helped us with site improvements and bug fixes. For this particular project, I identified an area for improvement in how returning users experienced and interacted with research award information.", 
                 "buttons": [
                     {
@@ -120,25 +121,14 @@
         ]
     }, 
     {
-        "headerTitle": "Content Strategy & Production", 
-        "id": "content-strategy-production",
+        "headerTitle": "Content Strategy", 
+        "id": "content-strategy",
         "cardContent": [
             {
-                "title": "Article: Turing Award presented to Yann LeCun, Geoffrey Hinton, and Yoshua Bengio",
-                "topics": ["Technical Writing", "Research"],
-                "subtitle": "March 2019",
-                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann LeCun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. Below is the article I wrote about him for the Meta AI Research blog, which a colleague edited and posted.", 
-                "buttons": [
-                    {
-                        "buttonTitle": "Read Article",
-                        "buttonURL": "https://ai.meta.com/blog/-turing-award-presented-to-yann-lecun-geoffrey-hinton-and-yoshua-bengio/"
-                    }
-                ]
-            }, 
-            {
+                "id": "cardsBtn",
                 "title": "Series: Facebook Fellowship Spotlight",
-                "topics": ["Strategy", "Production", "Editorial Management"],
-                "subtitle": "2021 - 2022",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "2021 - 2022",
                 "description": "Here are two example blog posts of a Fellowship spotlight series that I developed. At this time, I was sending out writing assignments to an external agency and I held a managing editor role. I identified Fellows with interesting stories, developed interview questions, and created detailed writing guides for the agency. I also partnered with design on the hero images.", 
                 "buttons": [
                     {
@@ -152,9 +142,10 @@
                 ]
             },
             {
+                "id": "cardsBtn",
                 "title": "Series: Academic of the Month",
-                "topics": ["Development", "Strategy", "Production", "Editorial Management"],
-                "subtitle": "2021 - 2022",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "2021 - 2022",
                 "description": "Here are two example blog posts of a spotlight series that I developed called Academic of the Month. Internally, I established a nomination process for Meta researchers and program managers to identify external academic partners that we would then honor and highlight on our blog each month. I started out writing the interview questions, sourcing the answers from academics, and crafting all the content into a final product, but I eventually offloaded these writing responsibilities to an external writing agency. I also partnered with design to create the hero images.", 
                 "buttons": [
                     {
@@ -168,9 +159,10 @@
                 ]
             },
             {
+                "id": "cardsBtn",
                 "title": "Article: The six most common Fellowship questions, answered by Facebook Fellow Moses Namara",
-                "topics": ["Development", "Strategy", "Production", "Editorial Management"],
-                "subtitle": "August 2020",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "August 2020",
                 "description": "While I managed the Meta Research website, this was one of our most popular blog posts. I partnered with a program manager to develop a Fellowship blog series that was meant to help PhD students with their Fellowship applications. My role involved sourcing content from Meta Research Fellow Moses Namara, crafting it into a fully formed blog (including image), staging on WordPress, posting, and tracking its success.", 
                 "buttons": [
                     {
@@ -180,9 +172,10 @@
                 ]
             },
             {
+                "id": "cardsBtn",
                 "title": "Article: Fellowship 101: Facebook Fellow Daricia Wilkinson outlines the basics for PhDs",
-                "topics": ["Development", "Strategy", "Production", "Editorial Management"],
-                "subtitle": "August 2020",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "August 2020",
                 "description": "While I managed the Meta Research website, this was another one of our most popular blog posts from the aforementioned Fellowship blog series (see previous). We were inspired by a blog post that Meta Research Fellow Daricia Wilkinson wrote on her own website. My role for this project was the same as the previous article with Moses.", 
                 "buttons": [
                     {
@@ -192,9 +185,10 @@
                 ]
             },
             {
+                "id": "cardsBtn",
                 "title": "Article: Five tips for a successful Facebook Fellowship application from the people who review them",
-                "topics": ["Development", "Strategy", "Production", "Editorial Management"],
-                "subtitle": "September 2020",
+                "subtitle1": "Strategy & Production",
+                "subtitle2": "September 2020",
                 "description": "This is another popular blog in the aforementioned Fellowship blog series. I spoke with several Meta research scientists and sourced content for this blog post. I then crafted it into a fully formed blog, partnered with design to create the image, staged it on WordPress, posted it, coordinated promotion on social media, and tracked its success.", 
                 "buttons": [
                     {
@@ -202,11 +196,31 @@
                         "buttonURL": "https://research.facebook.com/blog/2020/9/five-tips-for-a-successful-facebook-fellowship-application-from-the-people-who-review-them/"
                     }
                 ]
-            },
+            }
+        ]
+    }, 
+    {
+        "headerTitle": "Writing & Editing", 
+        "id": "writing-editing",
+        "cardContent": [
             {
+                "id": "cardsBtn",
+                "title": "Article: Turing Award presented to Yann LeCun, Geoffrey Hinton, and Yoshua Bengio",
+                "subtitle1": "Writing",
+                "subtitle2": "March 2019",
+                "description": "While I worked at Meta, I was often asked to write content for other partner blogs. I had the privilege of interviewing Yann LeCun when he won a Turing Award with this colleagues Yoshua Bengio and Geoffrey Hinton. Below is the article I wrote about him for the Meta AI Research blog, which a colleague edited and posted.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Read Article",
+                        "buttonURL": "https://ai.meta.com/blog/-turing-award-presented-to-yann-lecun-geoffrey-hinton-and-yoshua-bengio/"
+                    }
+                ]
+            }, 
+            {
+                "id": "cardsBtn",
                 "title": "College 101 Essay Examples",
-                "topics": ["Writing", "Editing"],
-                "subtitle": "2014 - 2017",
+                "subtitle1": "Writing & Editing",
+                "subtitle2": "2014 - 2017",
                 "description": "While I worked at e-learning startup Shmoop University, Inc., I wrote example college essays for the College 101 section of our website. I took common college essay prompts and responded to them as if I were a high schooler. I also edited these myself. My three essays ended up garnering over 10,000 views each over a two-week period when web traffic was expected to be low (during the holidays). It was such an accomplishment that my manager announced it to the rest of the content team and asked me to write more. Below are two examples from the first batch.", 
                 "buttons": [
                     {
