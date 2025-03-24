@@ -1,4 +1,4 @@
-const container = document.getElementById('card-container');
+let container = document.getElementById('card-container');
 
 // create path based on page title
 let pageTitle = document.title;
@@ -15,56 +15,110 @@ fetch(path)
         return response.json();
     })
     .then(data => {
-      data.forEach(item => {
-        const header = document.createElement("div");
-        header.innerHTML = `<h3 id="${item.id}">${item.headerTitle}</h3>`;
-        container.appendChild(header);
+      data.forEach(section => {
+        // create section
+        const cardSection = document.createElement("div");
 
-            item.cardContent.forEach(item => {
-                const content = document.createElement("div");
-                content.className = "card";
+        // create header and append to section if it exists
+        if (section.headerTitle != null) {
+            const header = document.createElement("div");
+            header.innerHTML = `<h2 id="${section.id}">${section.headerTitle}</h2>`;
+            cardSection.appendChild(header);
+        }
 
-                if (item.id == "cardsBtn") {
-                    const content = document.createElement("div");
-                    content.className = "card";
-                    const buttons = document.createElement("button");
-                    let buttonHTML = ``;
-                    let newString = "";
+        // create card section and append to section
+        const content = document.createElement("div");
+        cardSection.appendChild(content);
 
-                    item.buttons.forEach(item => {
-                        let temp = `<button><a href=${item.buttonURL}>${item.buttonTitle}</a></button>`;
-                        newString = newString + " " + temp;
-                    })
-                    buttonHTML = newString;
+        // append section to container
+        container.appendChild(cardSection);
 
-                    content.innerHTML = `
-                        <h4>${item.title}</h4>
-                        <p class="subtitle-1">${item.subtitle1}<br>${item.subtitle2}</p>
-                        ${item.description}
-                        <div class="spacer"></div>
-                        <div class="button-space">
-                        ${buttonHTML}
-                        </div>
-                    `;
-                    container.appendChild(content);
-                } else if (item.id == "cardsDesc") {
-                    content.innerHTML = `
-                        ${item.description}
-                    `;
-                    container.appendChild(content);
-                } else {
-                    const content = document.createElement("div");
-                    content.className = "card";
+        if (section.id == "col-3") {
+            // three columns
+            content.className = "col-3";
+        }else if (section.id == "col-2") {
+            // two columns
+            content.className = "col-2";
+        } else {
+            // default one column
+            content.className = "col-1";
+        }
 
-                    content.innerHTML = `
-                        <h4>${item.title}</h4>
-                        <p class="subtitle-1">${item.subtitle1}<br>${item.subtitle2}</p>
-                        ${item.description}
-                    `;
-                    container.appendChild(content);
-                }
+        container.appendChild(content);
 
-            })
+        section.cardContent.forEach(item => {
+            // create individual text card
+            const text = document.createElement("div");
+            text.className = "card";
+
+            let textHTML = "";
+
+            if (item.title) {
+                textHTML += `<h3>${item.title}</h3>`;
+            }
+
+            if (item.subtitle) {
+                textHTML += `<p class="subtitle">${item.subtitle}</p>`;
+            }
+
+            if (item.topics) {
+                // create div for tags
+                let tagSection = document.createElement("div");
+                tagSection.className = "tag-section";
+
+                // create string for tag html
+                let htmlString = "";
+
+                // create new button html per button
+                item.topics.forEach(topic => {
+                    // let temp = `<div class="theme"><p>${topic}</p></div>`;
+                    let temp = `<p class="theme">${topic}</p>`
+                    htmlString += " " + temp;
+                });
+
+                // put tag html inside div
+                tagSection.innerHTML = htmlString;
+
+                // convert final div to string
+                let finalString = tagSection.outerHTML;
+
+                // add string to final card html
+                textHTML += finalString;
+            }
+
+            if (item.description) {
+                textHTML += `<p>${item.description}</p>`;
+            }
+
+            if (item.buttons) {
+                // create div for buttons
+                let buttonSection = document.createElement("div");
+                buttonSection.className = "button-space";
+
+                // create string for button html
+                let newString = "";
+
+                // create new button html per button
+                item.buttons.forEach(button => {
+                    let temp = `<button class="btn"><a href=${button.buttonURL}>${button.buttonTitle}</a></button>`;
+                    newString += " " + temp;
+                });
+
+                // put tag html inside div
+                buttonSection.innerHTML = newString;
+
+                // convert final div to string
+                let finalString = buttonSection.outerHTML;
+
+                // add string to final card html
+                textHTML += finalString;
+            }
+
+            text.innerHTML = textHTML;
+
+            // append text to card
+            content.appendChild(text);
+        })
     })
 })
     .catch(error => {

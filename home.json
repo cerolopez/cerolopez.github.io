@@ -1,0 +1,28 @@
+[
+    {
+        "headerTitle": null, 
+        "id": "col-2",
+        "cardContent": [
+            {
+                "title": "Learn More",
+                "description": "If you want to learn more about me, I've prompt-engineered a GPT-4 chatbot to answer questions on my behalf using info from this website and my LinkedIn.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Chat with Behalf Bot",
+                        "buttonURL": "https://behalf-bot.onrender.com/"
+                    }
+                ]
+            }, 
+            {
+                "title": "Get in Touch",
+                "description": "If you'd like to get in touch for whatever reason, you can send me a message on LinkedIn — or you can shoot me an email at lopezceciliarose at gmail dot com.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Connect on LinkedIn",
+                        "buttonURL": "https://www.linkedin.com/feed/"
+                    }
+                ]
+            }
+        ]
+    }
+]
