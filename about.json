@@ -1,6 +1,20 @@
 [
     {
         "headerTitle": null, 
+        "id": "col-2",
+        "cardContent": [
+            {
+                "title": "My Career Journey",
+                "description": "After finishing my undergrad in 2014, I became a content editor at an e-learning startup and have been working in digital content ever since. In 2018, I became a contractor at Meta and supported the research marketing team until 2019 when I received headcount. I was laid off in the first round of layoffs at the end of 2022 and have since been working various part-time jobs."
+            },
+            {
+                "title": "Transitioning to CS",
+                "description": "In 2021, I decided to embark on a new journey and earn a Master's in Computer Science from Northeastern University's Align Program, which is designed for students who did not major in CS in their undergrad. I graduated in May 2024 with a primary focus on digital experiences (web dev, HCI, info retrieval) and a secondary focus in AI, machine learning, and NLP."
+            }
+        ]
+    },
+    {
+        "headerTitle": null, 
         "id": "col-3",
         "cardContent": [
             {
@@ -9,7 +23,7 @@
             }, 
             {
                 "title": "Frameworks & Tools",
-                "description": "<ul class='list-disc pl-10'><li>React</li><li>Node.js</li><li>Tailwind CSS</li><li>Bootstrap</li><li>Elasticsearch</li><li>GPT-4</li></ul>"
+                "description": "<ul class='list-disc pl-10'><li>React</li><li>Node.js</li><li>Bootstrap</li><li>Elasticsearch</li><li>GPT-4</li></ul>"
             }, 
             {
                 "title": "Software",
@@ -18,11 +32,59 @@
         ]
     }, 
     {
-        "headerTitle": "Contact", 
+        "headerTitle": null, 
         "id": "col-1",
         "cardContent": [
             {
-                "description": "If you'd like to get in touch for whatever reason, you can send me a message on LinkedIn or you can shoot me an email at lopezceciliarose at gmail dot com"
+                "title": "Core Competencies",
+                "topics": [
+                    "Content Strategy",
+                    "Web Development",
+                    "UX Design",
+                    "Large Language Models",
+                    "Frontend Development",
+                    "Natural Language Processing",
+                    "Linguistics",
+                    "Content Production",
+                    "Proofreading",
+                    "Project Management",
+                    "Content Management",
+                    "Web Design",
+                    "SEO",
+                    "Writing",
+                    "Editorial Management",
+                    "Wireframing",
+                    "Prototyping",
+                    "User Research",
+                    "Editing",
+                    "Information Retrieval"
+                ]
+            }
+        ]
+    },
+    {
+        "headerTitle": null, 
+        "id": "col-2",
+        "cardContent": [
+            {
+                "title": "Learn More",
+                "description": "If you want to learn more about me, I've prompt-engineered a GPT-4 chatbot to answer questions on my behalf using info from this website and my LinkedIn.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Chat with Behalf Bot",
+                        "buttonURL": "https://behalf-bot.onrender.com/"
+                    }
+                ]
+            }, 
+            {
+                "title": "Get in Touch",
+                "description": "If you'd like to get in touch for whatever reason, you can send me a message on LinkedIn — or you can shoot me an email at lopezceciliarose at gmail dot com.", 
+                "buttons": [
+                    {
+                        "buttonTitle": "Connect on LinkedIn",
+                        "buttonURL": "https://www.linkedin.com/feed/"
+                    }
+                ]
             }
         ]
     }
