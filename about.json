@@ -78,7 +78,7 @@
             }, 
             {
                 "title": "Get in Touch",
-                "description": "If you'd like to get in touch for whatever reason, you can send me a message on LinkedIn — or you can shoot me an email at lopezceciliarose at gmail dot com.", 
+                "description": "If you'd like to get in touch for whatever reason, you can send me a message on LinkedIn — or you can shoot me an email (<span id='copy-text' onclick='copyToClipboard()' style='cursor: pointer;'><strong>click to copy</strong></span>).", 
                 "buttons": [
                     {
                         "buttonTitle": "Connect on LinkedIn",
