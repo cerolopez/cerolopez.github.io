@@ -7,7 +7,7 @@
                 "title": "Behalf Bot",
                 "topics": ["Prompt Engineering", "LLMs", "Web Dev", "UX", "Design"],
                 "subtitle": "March 2025 - present",
-                "description": "I created Behalf Bot to help recruiters and hiring managers make sense of my uniquely diverse background. Building off OpenAI's GPT-4, I curated responses by crafting instructions based off various use cases, providing data available on my LinkedIn and website. I built the chatbot UI on Flask using Python for the backend and vanilla JavaScript, and HTML/CSS for the frontend. It is currently deployed on Render and fully live and operational at the link below.",
+                "description": "I created Behalf Bot to help recruiters and hiring managers make sense of my uniquely diverse background. Building off OpenAI's GPT-4, I curated responses by crafting instructions based off various use cases, providing data available on my LinkedIn and website. I built the chatbot UI on Flask using Python for the backend and vanilla JavaScript, and HTML/CSS for the frontend. It is currently deployed on Render and fully live and operational at the link below. Fun fact: I built it in one week!",
                 "buttons": [
                     {
                         "buttonTitle": "Chatbot",
