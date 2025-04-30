@@ -8,8 +8,8 @@
                 "description": "After finishing my undergrad in 2014, I became a content editor at an e-learning startup and have been working in digital content ever since. In 2018, I became a contractor at Meta and supported the research marketing team until 2019 when I received headcount. I was laid off at the end of 2022 while enrolled in grad school. Since then, I've been working various part-time and freelance jobs."
             },
             {
-                "title": "Breaking into Tech",
-                "description": "In 2021, I decided to try something new and earn a Master's in Computer Science from Northeastern University's Align Program, which is designed for students who did not major in CS in their undergrad. I graduated in May 2024 with a primary focus on building digital experiences (web dev, HCI, info retrieval) and a secondary focus in AI, machine learning, and NLP."
+                "title": "Expanding into Tech",
+                "description": "In 2021, I decided to broaden my skill set by pursuing a Master's in Computer Science from Northeastern University's Align program, which is designed for students without any previous CS education. I graduated in May 2024, with electives in natural language processing, machine learning, human-computer interaction, and web development."
             }
         ]
     },
@@ -39,25 +39,19 @@
                 "title": "Core Competencies",
                 "topics": [
                     "Content Strategy",
-                    "Web Development",
-                    "UX Design",
-                    "Large Language Models",
-                    "Frontend Development",
+                    "LLMs",
+                    "Prompt Engineering",
                     "Natural Language Processing",
-                    "Linguistics",
+                    "Linguistic Analysis",
+                    "UX Writing",
                     "Content Production",
-                    "Proofreading",
-                    "Project Management",
+                    "UX Design",
                     "Content Management",
-                    "Web Design",
                     "SEO",
-                    "Writing",
-                    "Editorial Management",
                     "Wireframing",
                     "Prototyping",
                     "User Research",
-                    "Editing",
-                    "Information Retrieval"
+                    "Frontend Web Development"
                 ]
             }
         ]
