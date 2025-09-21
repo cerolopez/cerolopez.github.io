@@ -5,7 +5,7 @@
         "cardContent": [
             {
                 "title": "Learn More",
-                "description": "If you want to learn more about me, I've prompt-engineered a GPT-4 chatbot to answer questions on my behalf using info from this website and my LinkedIn.", 
+                "description": "If you want to learn more about me, chat with Behalf Bot — a GPT-4 chatbot I created to answer questions on my behalf using info from this website and my LinkedIn.", 
                 "buttons": [
                     {
                         "buttonTitle": "Chat with Behalf Bot",
